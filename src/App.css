@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+#navbar{
+  width: 100%;
+  height: 6rem;
+  background-color: #ffffff;
+}
+
+.navbarLinks{
+  display: inline-block;
+  margin: 1.5rem 0 0 40%;
+}
+
+.homeNavbarBtn, .prodNavbarBtn, .aboutNavbarBtn, .reviewsNavbarBtn, .contactNavbarBtn{
+  color: #606060;
+  text-decoration: none;
+  margin: 0 2rem 0 2rem;
+}
+
+.orderNowBtn{
+  width: 7rem;
+  height: 3rem;
+  color: #ffffff;
+  border: none;
+  border-radius: 1rem;
+  background-color: #ff4d4d;
+  margin: 0 0 0 1rem;
+}
+
+.orderNowBtn:hover{
+  cursor: pointer;
+}
+
+.orderNowBtn:active{
+  background-color: #ff1a1a;
+}
