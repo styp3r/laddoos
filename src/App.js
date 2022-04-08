@@ -15,11 +15,10 @@ function App() {
       <Router>
       <div id = "navbar">
       <div className = "navbarLinks"> 
-        <Link className = "homeNavbarBtn" to="/">Home</Link>
-        <Link className = "prodNavbarBtn" to="/products">Products</Link>
-        <Link className = "aboutNavbarBtn" to="/about">About</Link>
+        <Link className = "prodNavbarBtn" to="/products">Our Products</Link>
+        <Link className = "aboutNavbarBtn" to="/about">About Us</Link>
         <Link className = "reviewsNavbarBtn" to="/reviews">Reviews</Link>
-        <Link className = "contactNavbarBtn" to="/contact">Contact</Link>
+        <Link className = "contactNavbarBtn" to="/contact">Contact Us</Link>
       <OrderNowBtn />
       </div>
       </div>

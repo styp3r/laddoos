@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -48,7 +49,7 @@
   margin: 1.5rem 0 0 40%;
 }
 
-.homeNavbarBtn, .prodNavbarBtn, .aboutNavbarBtn, .reviewsNavbarBtn, .contactNavbarBtn{
+.prodNavbarBtn, .aboutNavbarBtn, .reviewsNavbarBtn, .contactNavbarBtn{
   color: #606060;
   text-decoration: none;
   margin: 0 2rem 0 2rem;
@@ -70,4 +71,57 @@
 
 .orderNowBtn:active{
   background-color: #ff1a1a;
+}
+
+#heroSection{
+  display: flex;
+  width: 100%;
+  height: 40rem;
+}
+
+.heroVideo{
+  margin: 7rem 0 0 10rem;
+}
+
+.vidBorder{
+  width: 30rem;
+  height: 30rem;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+.heroText{
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+.heroTextContent{
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  width: 30rem;
+  text-align: left;
+}
+
+.heroSubText1{
+  line-height: 2.5rem;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.heroSubText2{
+  color: #606060;
+}
+
+#productsMiniView{
+  width: 100%;
+  height: 40rem;
+  background-color: #ff4d4d;
+}
+
+.productsText{
+  width: 35%;
+  height: 100%;
+  background-color: #282c34;
 }
