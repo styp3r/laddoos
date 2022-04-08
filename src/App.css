@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .App-logo {
@@ -100,28 +101,90 @@
   position: absolute;
   left: 25%;
   top: 25%;
-  width: 30rem;
+  width: 35rem;
   text-align: left;
 }
 
 .heroSubText1{
-  line-height: 2.5rem;
+  line-height: 3rem;
+  font-family: 'Grape Nuts', cursive;
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 .heroSubText2{
   color: #606060;
+  width: 25rem;
 }
 
-#productsMiniView{
+.scrollDownText{
+  margin: 15rem 0 0 0;
+  font-size: 0.8rem;
+  color: #909090;
+}
+
+#productsSection{
+  position: relative;
+  display: flex;
   width: 100%;
-  height: 40rem;
-  background-color: #ff4d4d;
+  height: 60rem;
 }
 
 .productsText{
-  width: 35%;
+  position: relative;
+  width: 50%;
   height: 100%;
-  background-color: #282c34;
+}
+
+.prodTextContent{
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  width: 35rem;
+  text-align: left;
+}
+
+.prodSubText1{
+  font-family: 'Staatliches', cursive;
+  font-size: 2rem;
+}
+
+.prodSubText2{
+  font-family: 'Grape Nuts', cursive;
+  font-size: 3.5rem;
+  line-height: 3rem;
+  margin: 10rem 0 0 0;
+}
+
+.productDisplay{
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+.prodListContainer{
+  position: absolute;
+  left: 2rem;
+  top: 30%;
+  width: 90%;
+  height: 33rem;
+}
+
+#itemBox{
+  width: 12rem;
+  height: 14rem;
+  display: inline-block;
+  border-radius: 1rem;
+  margin: 1rem;
+  border: solid #e0dfdf;
+  border-width: 1px;
+}
+
+.itemImgContainer{
+  border-radius: 50rem;
+}
+
+.itemImg{
+  width: 100%;
+  border-radius: 1rem 1rem 0 0 ;
 }
