@@ -9,6 +9,7 @@ import Beverages from '../images/badamMilk.JPG';
 import ItemBox from './ItemBox';
 import Bg from '../images/bgSubs.png';
 import Feature from '../images/featureImg.jpg';
+import ReviewBox from './HomepageReviewBox';
 
 function Home(){
     return(
@@ -69,13 +70,24 @@ function Home(){
                     <li className = "benefitHeading1">&#x1F4AF; Best Quality</li>
                     <li className = "benefitText1">We try to make products of the best quality so that you can enjoy true, authentic and tasty Indian food.</li>
                     <li className = "benefitHeading2">&#x1F957; Large Selection Of Products</li>
-                    <li className = "benefitText2">We have an inventory of more than a 100 products and the list keeps growing so there is always something for everyone.</li>
+                    <li className = "benefitText2">We have an inventory of 100+ products and the list keeps growing so there is always something for everyone.</li>
                     <li className = "benefitHeading3">&#x1F44D; Customer Satisfaction</li>
                     <li className = "benefitText3">We serve 1000+ happy customers on a daily basis and we always acknowledge and work on feedbacks so that we can provide you with the best possible experience!</li>
                 </ul>
                 </div>
             </div>
         </div>
+
+        <div id = "reviewsSection">
+        <div className = "reviewsHeading">TESTIMONIALS</div>
+            <div className = "reviewsList">
+                <ReviewBox />
+                <ReviewBox />
+                <ReviewBox />
+            </div>
+        </div>
+
+        <div></div>
         </div>
     );
 }
