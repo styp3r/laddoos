@@ -39,6 +39,21 @@
   }
 }
 
+#logo{
+  position: absolute;
+  padding: 0 0.8rem 0 0.4rem;
+  left: 10rem;
+  top: 1.7rem;
+  display: inline-block;
+  font-family: "Monotype Corsiva", serif; 
+  color: #ffffff;
+  background-color: #ff4d4d;
+  border: solid 1px #000000;
+  font-size: 3rem;
+  margin: 0;
+  font-weight: bold;
+}
+
 #navbar{
   width: 100%;
   height: 6rem;
@@ -47,7 +62,7 @@
 
 .navbarLinks{
   display: inline-block;
-  margin: 1.5rem 0 0 40%;
+  margin: 1.5rem 0 0 32%;
 }
 
 .prodNavbarBtn, .aboutNavbarBtn, .reviewsNavbarBtn, .contactNavbarBtn{
@@ -99,7 +114,7 @@
 
 .heroTextContent{
   position: absolute;
-  left: 25%;
+  left: 22%;
   top: 25%;
   width: 35rem;
   text-align: left;
@@ -117,32 +132,25 @@
   width: 25rem;
 }
 
-.scrollDownText{
-  margin: 15rem 0 0 0;
-  font-size: 0.8rem;
-  color: #909090;
-}
-
 #productsSection{
   position: relative;
   display: flex;
   width: 100%;
-  height: 60rem;
-  margin: 0 0 10rem 0;
+  height: 50rem;
 }
 
-.productsText{
-  position: relative;
+.productsTextContainer{
   width: 50%;
   height: 100%;
 }
 
-.prodTextContent{
+.prodText{
   position: absolute;
-  left: 25%;
-  top: 25%;
-  width: 35rem;
+  left: 9rem;
+  top: 10rem;
   text-align: left;
+  width: 40%;
+  height: 100%;
 }
 
 .prodSubText1{
@@ -152,59 +160,45 @@
 }
 
 .prodSubText2{
-  font-family: 'Grape Nuts', cursive;
   font-size: 3.5rem;
   line-height: 3rem;
-  margin: 5rem 0 0 0;
+  margin: 2rem 0 0 0;
+  font-family: 'Grape Nuts', cursive;
 }
 
-.productDisplay{
-  position: relative;
+.productDisplayContainer{
+  position: absolute;
+  right: 0;
   width: 50%;
   height: 100%;
 }
 
-.prodListContainer{
-  position: absolute;
-  left: 2rem;
-  top: 30%;
+.prodDisplay{
+  margin: 10rem 0 0 0;
   width: 90%;
-  height: 33rem;
 }
 
 #itemBox{
-  width: 12rem;
-  height: 14rem;
-  display: inline-block;
+  width: 10rem;
+  height: 12rem;
+  border: solid 1px #dbdbdb;
   border-radius: 1rem;
-  margin: 1rem;
-  border: solid #e0dfdf;
-  border-width: 1px;
-}
-
-.itemImgContainer{
-  border-radius: 50rem;
+  display: inline-block;
+  margin: 1rem 1.4rem 1rem 1.4rem;
 }
 
 .itemImg{
+  border-radius: 1rem 1rem 0 0;
   width: 100%;
-  border-radius: 1rem 1rem 0 0 ;
-  object-fit: cover;
-}
-
-.itemName{
-  margin: 2rem 0 0 0;
 }
 
 .viewAllBtn{
-  position: absolute;
-  bottom: 5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  border: none;
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  width: 8rem;
+  height: 3.5rem;
   border-radius: 1rem;
+  border: none;
   color: #ffffff;
+  margin: 3rem 0 0 0;
   background-color: #ff4d4d;
 }
 
@@ -262,7 +256,7 @@
 
 .whyUsTextContent{
   position: absolute;
-  left: 25%;
+  left: 22%;
   top: 10%;
   width: 35rem;
   text-align: left;
@@ -316,7 +310,7 @@
 #reviewsSection{
   position: relative;
   width: 100%;
-  height: 60rem;
+  height: 50rem;
   margin: 15rem 0 0 0;
 }
 
@@ -331,7 +325,7 @@
 
 #reviewBox{
   display: inline-block;
-  width: 25rem;
+  width: 23rem;
   height: 100%;
   background-color: #f1f1f1;
   border-radius: 1rem;
@@ -355,8 +349,54 @@
 
 .reviewsHeading{
   position: absolute;
-  left: 12rem;
+  left: 10.5rem;
   font-family: 'Anton', sans-serif;
   font-size: 2rem;
   color: #5f5f5f;
+}
+
+#offerSection{
+  width: 78%;
+  height: 25rem;
+  background-color: #fb6661;
+  border-radius: 2rem;
+  margin: auto;
+}
+
+#footerSection{
+  position: relative;
+  width: 100%;
+  height: 15rem;
+}
+
+.footerLeft{
+  position: absolute;
+  left: 10rem;
+  bottom: 2rem;
+  width: 30rem;
+  height: 6rem;
+  text-align: left;
+}
+
+.footerRight{
+  position: absolute;
+  right: 10rem;
+  bottom: 2rem;
+  width: 30rem;
+  height: 4rem;
+  text-align: right;
+  color: #909090;
+  font-size: 0.8rem;
+}
+
+.footerHeader{
+  color: #ff4d4d;
+  font-size: 2rem;
+  margin: 0;
+  font-family: "Monotype Corsiva", serif; 
+}
+
+.address{
+  color: #909090;
+  font-size: 0.8rem;
 }

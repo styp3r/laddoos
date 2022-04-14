@@ -20,7 +20,6 @@ function Home(){
                 <div className = "heroTextContent">
                     <h1 className = "heroSubText1">Authentic Indian Sweets For Every Occasion</h1>
                     <p className = "heroSubText2">Sweets are a symbol of spreading happiness with your loved ones and what better way than to do it with sweets that melt on your taste buds!</p>
-                    <p className = "scrollDownText">Scroll Down</p>
                 </div>
             </div>
             <div className = "heroVideo">
@@ -31,22 +30,22 @@ function Home(){
         </div>
 
         <div id = "productsSection">
-            <div className = "productsText">
-                <div className = "prodTextContent">
-                    <div className = "prodSubText1">PRODUCTS</div>
+            <div className = "productsTextContainer">
+                <div className = "prodText">
+                    <div className = "prodSubText1">OUR PRODUCTS</div>
                     <div className = "prodSubText2">The Best Quality Food With Superb Taste</div>
+                    <button className = "viewAllBtn">View All</button>
                 </div>
             </div>
-            <div className = "productDisplay">
-                <div className = "prodListContainer">
-                    <ItemBox img = {Sweets} name = "Sweets"/>
-                    <ItemBox img = {Chaats} name = "Chaats & Snacks"/>
-                    <ItemBox img = {Namkeen} name = "Namkeen"/>
-                    <ItemBox img = {Paratha} name = "Parathas & Puris"/>
-                    <ItemBox img = {Combo} name = "Special Combos"/>
-                    <ItemBox img = {Beverages} name = "Beverages"/>
+            <div className = "productDisplayContainer">
+                <div className = "prodDisplay">
+                    <ItemBox img = "https://www.cubesnjuliennes.com/wp-content/uploads/2020/08/Best-Mutton-Keema-Samosa-Recipe-1.jpg" name = "samosa1"/>
+                    <ItemBox img = "https://www.cubesnjuliennes.com/wp-content/uploads/2020/08/Best-Mutton-Keema-Samosa-Recipe-1.jpg" name = "samosa2"/>
+                    <ItemBox img = "https://www.cubesnjuliennes.com/wp-content/uploads/2020/08/Best-Mutton-Keema-Samosa-Recipe-1.jpg" name = "samosa3"/>
+                    <ItemBox img = "https://www.cubesnjuliennes.com/wp-content/uploads/2020/08/Best-Mutton-Keema-Samosa-Recipe-1.jpg" name = "samosa4"/>
+                    <ItemBox img = "https://www.cubesnjuliennes.com/wp-content/uploads/2020/08/Best-Mutton-Keema-Samosa-Recipe-1.jpg" name = "samosa5"/>
+                    <ItemBox img = "https://www.cubesnjuliennes.com/wp-content/uploads/2020/08/Best-Mutton-Keema-Samosa-Recipe-1.jpg" name = "samosa6"/>
                 </div>
-                <button className = "viewAllBtn">View All</button>
             </div>
         </div>
 
@@ -87,7 +86,18 @@ function Home(){
             </div>
         </div>
 
-        <div></div>
+        <div id = "offerSection"></div>
+
+        <div id = "footerSection">
+            <div className = "footerLeft">
+                <p className = "footerHeader">Laddoos</p>
+                <p className = "address">Regd. Office : Hemkund, BMP no. 10, 14th D Cross, behind GR Regency Apartments, Byrasandra, GM Palya, New Thippasandra post, Bangalore 560075</p>
+            </div>
+            <div className = "footerRight">
+                <p>Copyright &#169; Xyka Hotels India Pvt. Ltd. 2022</p>
+                <p>All Rights Reserved</p>
+            </div>
+        </div>
         </div>
     );
 }

@@ -11,7 +11,7 @@ import OrderNowBtn from './components/OrderNowBtn';
 function App() {
   return (
     <div className="App">
-    
+      <p id = "logo">Laddoos</p>
       <Router>
       <div id = "navbar">
       <div className = "navbarLinks"> 
