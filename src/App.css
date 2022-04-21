@@ -1,6 +1,297 @@
+button{
+  background-color: rgb(220, 20, 60);
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #ffffff;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+button:active{
+  background-color: rgb(183, 16, 49);
+}
+
 .App {
   text-align: center;
   overflow-x: hidden;
+  padding: 0 4rem 0 4rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#navbar{
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: end;
+}
+
+#heroVideo{
+  object-fit: cover;
+  width: 25rem;
+  height: 25rem;
+  margin: 7rem 0 0 5rem;
+  border-radius: 100%;
+  border: solid 0.3rem rgb(220, 20, 60);
+}
+
+#bestSellerItemBox{
+  display: inline-block;
+  width: 11rem;
+  height: 11rem;
+  box-shadow: 0 0 0.7rem 1px #d9d9d9;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+#categoriesItemBox{
+  display: inline-block;
+  width: 15rem;
+  height: 13rem;
+  box-shadow: 0 0 0.7rem 1px #d9d9d9;
+  margin: 2rem;
+  border-radius: 1rem;
+}
+
+#categoriesItemBox:hover{
+  cursor: pointer;
+  background-color: rgb(220, 20, 60);
+  color: #ffffff;
+}
+
+.navbarItems{
+  margin: 2rem 0 0 0;
+}
+
+.homeTab, .productsTab, .aboutTab, .contactTab{
+  margin: 0 2rem 0 1rem;
+  text-decoration: none;
+  color: #616161;
+}
+
+.homeTab:hover, .productsTab:hover, .aboutTab:hover, .contactTab:hover{
+  color: #ff1745;
+}
+
+.cartTab{
+  width: 2rem;
+  height: 2rem;
+  margin: 2.7rem 0 0 5rem;
+  text-decoration: none;
+  color: #b2b2b2;
+}
+
+.carticon{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.heroSection{
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem 0 0 0;
+}
+
+.heroImg{
+  width: 45%;
+  height: 100%;
+}
+
+.heroTitle{
+  font-family: 'Courgette', cursive;
+  font-size: 2.5rem;
+}
+
+.heroSubTitle{ 
+  width: 30rem;
+  color: #727272;
+  margin: 0 0 2rem 0;
+}
+
+.heroText{
+  width: 55%;
+  height: 100%;
+  text-align: left;
+}
+
+.heroTextContainer{
+  margin: 10rem 0 0 10rem;
+  width: 35rem;
+}
+
+.bestSellerSection{
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bsTextContainer{
+  width: 20rem;
+  margin: 0 0 0 7rem;
+  text-align: left;
+}
+
+.bestSellerSectionText{
+  width: 35%;
+  height: 100%;
+}
+
+.bestSellerTitle{
+  font-family: 'Courgette', cursive;
+  font-size: 2rem;
+  margin: 10rem 0 0 0;
+}
+
+.bestSellerSubTitle{
+  color: #8e8e8e;
+}
+
+.bestSellerContainer{
+  width: 65%;
+}
+
+.bsName, .bsQP{
+  margin: 1rem;
+}
+
+.bsQ{
+  color: #ff88a0;
+  margin: 0 1rem 0 0;
+}
+
+.viewAllArrow{
+  width: 5rem;
+}
+
+.aboutSection{
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  justify-content: space-evenly; 
+}
+
+.aboutUsTextContainer{
+  margin: 12rem 0 0 0;
+  width: 15rem;
+}
+
+.aboutUsText{
+  width: 55%;
+  height: 100%;
+  text-align: left;
+}
+
+.categoriesSection{
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.categoriesContainer{
+  width: 70%;
+  margin: auto;
+}
+
+.catBoxTitle{
+  margin: 0;
+}
+
+.locationsSection{
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mapView{
+  width: 55%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapViewContainer{
+  width: 35rem;
+  height: 35rem;
+  background-color: aqua;
+  border-radius: 2rem;
+}
+
+.locationsTextContainer{
+  margin: 10rem 0 0 10rem;
+  width: 15rem;
+}
+
+.locationsText{
+  width: 45%;
+  height: 100%;
+  text-align: right;
+}
+
+.offerSection{
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offerBanner{
+  width: 70rem;
+  height: 25rem;
+  background-color: aqua;
+  border-radius: 2rem;
+}
+
+.footerSection{
+  width: 100%;
+  height: 15rem;
+  display: flex;
+}
+
+.footerLeft{
+  text-align: left;
+  width: 50%;
+}
+
+.footerLeftContent{
+  width: 35rem;
+  margin: 7rem 0 0 7rem;
+}
+
+.footerLogo{
+  font-family: 'Monotype Corsiva', 'sans-serif', 'serif';
+  font-size: 2rem;
+  margin: 0;
+  color: rgb(238, 33, 74);
+}
+
+.regdAddress{
+  color: #b4b4b4;
+}
+
+.footerRight{
+  text-align: right;
+  width: 50%;
+}
+
+.footerRightContent{
+  width: 35rem;
+  margin: 9rem 7rem 0 0;
+}
+
+.copyright{
+  margin: 0;
+  color: #b4b4b4;
 }
 
 
