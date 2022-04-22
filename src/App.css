@@ -222,8 +222,13 @@ button:active{
 .mapViewContainer{
   width: 35rem;
   height: 35rem;
-  background-color: aqua;
-  border-radius: 2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.leaflet-container{
+  width: 35rem;
+  height: 35rem;
 }
 
 .locationsTextContainer{

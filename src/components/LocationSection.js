@@ -1,8 +1,12 @@
+import Map from './Map';
+
 function LocationSection(){
     return (
     <div className = "locationsSection">
         <div className = "mapView">
-            <div className = "mapViewContainer"></div>
+            <div className = "mapViewContainer">
+                <Map/>
+            </div>
         </div>
         <div className = "locationsText">
             <div className = "locationsTextContainer">
