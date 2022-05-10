@@ -12,6 +12,7 @@ import Products from './components/Products';
 import Contact from './components/Contact';
 import Cart from './components/Cart';
 import CartIcon from './images/cartIcon.png';
+import LaddoosLogo from './images/laddoosLogo.JPG';
 
 
 function App() {

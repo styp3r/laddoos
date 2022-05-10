@@ -1,3 +1,11 @@
+import vadaPav from '../images/Items/vada pav.jpg';
+//import from '../images/Items/';
+import laddoo from '../images/Items/Ghee Motichoor Laddoo.jpg';
+import lassi from '../images/Items/sweet lassi.jpg';
+import papdi from '../images/Items/papdi.jpg';
+import mysorePak from '../images/Items/mysore pak.jpg';
+
+
 const ItemList = [
     {
         id: 1,
@@ -24,7 +32,7 @@ const ItemList = [
         bestseller: true,
         qty: "1 Piece",
         price: 40,
-        img: "https://www.cubesnjuliennes.com/wp-content/uploads/2020/08/Best-Mutton-Keema-Samosa-Recipe-1.jpg"
+        img: vadaPav
     },
     {
         id: 4,
@@ -38,11 +46,11 @@ const ItemList = [
     {
         id: 5,
         name: "Motichoor Laddoo",
-        category: "snacks",
+        category: "sweets",
         bestseller: true,
         qty: "250gms",
         price: 151,
-        img: "https://www.cubesnjuliennes.com/wp-content/uploads/2020/08/Best-Mutton-Keema-Samosa-Recipe-1.jpg"
+        img: laddoo
     },
     {
         id: 6,
@@ -56,7 +64,7 @@ const ItemList = [
     {
         id: 7,
         name: "Rasgulla",
-        category: "snacks",
+        category: "sweets",
         bestseller: true,
         qty: "6 Pieces",
         price: 175,
@@ -65,20 +73,20 @@ const ItemList = [
     {
         id: 8,
         name: "Mysore Pak",
-        category: "snacks",
+        category: "sweets",
         bestseller: true,
         qty: "250gms",
         price: 175,
-        img: "https://www.cubesnjuliennes.com/wp-content/uploads/2020/08/Best-Mutton-Keema-Samosa-Recipe-1.jpg"
+        img: mysorePak
     },
     {
         id: 9,
         name: "Gujarati Papdi",
-        category: "snacks",
+        category: "namkeen",
         bestseller: true,
         qty: "180gms",
         price: 80,
-        img: "https://www.cubesnjuliennes.com/wp-content/uploads/2020/08/Best-Mutton-Keema-Samosa-Recipe-1.jpg"
+        img: papdi
     },
     {
         id: 10,
@@ -92,7 +100,7 @@ const ItemList = [
     {
         id: 11,
         name: "Kaju Burfi",
-        category: "snacks",
+        category: "sweets",
         bestseller: true,
         qty: "250gms",
         price: 275,
@@ -128,11 +136,11 @@ const ItemList = [
     {
         id: 15,
         name: "Sweet Lassi",
-        category: "snacks",
+        category: "beverages",
         bestseller: true,
         qty: "150ml",
         price: 65,
-        img: "https://www.cubesnjuliennes.com/wp-content/uploads/2020/08/Best-Mutton-Keema-Samosa-Recipe-1.jpg"
+        img: lassi
     },
     {
         id: 16,

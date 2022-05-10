@@ -1,5 +1,5 @@
 import CategoriesItembox from "./CategoriesItemBox";
-import CategoriesList from "./CategoriesList";
+import ItemList from "./ItemList";
 
 function CategoriesSection(){
 
@@ -10,7 +10,7 @@ function CategoriesSection(){
     return(
         <div className = "categoriesSection">
             <div className = "categoriesContainer">
-                {CategoriesList.map(getCategories)}
+                {ItemList.map(getCategories)}
             </div>
         </div>
     );

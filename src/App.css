@@ -1,5 +1,5 @@
 button{
-  background-color: rgb(220, 20, 60);
+  background-color: rgb(255, 0, 51);
   border: none;
   padding: 1rem;
   border-radius: 1rem;
@@ -34,7 +34,7 @@ button:active{
   height: 25rem;
   margin: 7rem 0 0 5rem;
   border-radius: 100%;
-  border: solid 0.3rem rgb(220, 20, 60);
+  border: solid 0.3rem rgb(255, 0, 51);
 }
 
 #bestSellerItemBox{
@@ -44,6 +44,16 @@ button:active{
   box-shadow: 0 0 0.7rem 1px #d9d9d9;
   margin: 1rem;
   border-radius: 1rem;
+}
+
+#productPageItemBox{
+  display: inline-block;
+  width: 13rem;
+  height: 15rem;
+  box-shadow: 0 0 0.7rem 1px #d9d9d9;
+  margin: 3rem;
+  border-radius: 1rem;
+  text-align: center;
 }
 
 #categoriesItemBox{
@@ -57,8 +67,29 @@ button:active{
 
 #categoriesItemBox:hover{
   cursor: pointer;
-  background-color: rgb(220, 20, 60);
+  background-color: rgb(255, 0, 51);
   color: #ffffff;
+}
+
+#products{
+  width: 100%;
+  display: flex;
+}
+
+#cat1, #cat2, #cat3, #cat4, #cat5, #cat6 {
+  width: 100%;
+  height: 3rem;
+  margin: 1rem;
+  padding: 0 0 0 1rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border: solid 1px #c3c3c3;
+}
+
+#cat1:hover, #cat2:hover, #cat3:hover, #cat4:hover, #cat5:hover, #cat6:hover {
+  cursor: pointer;
 }
 
 .navbarItems{
@@ -78,7 +109,7 @@ button:active{
 .cartTab{
   width: 2rem;
   height: 2rem;
-  margin: 2.7rem 0 0 5rem;
+  margin: 2.8rem 0 0 5rem;
   text-decoration: none;
   color: #b2b2b2;
 }
@@ -156,35 +187,37 @@ button:active{
   width: 65%;
 }
 
-.bsName, .bsQP{
+.bsName, .bsQP, .ppName, .ppQP{
   margin: 1rem;
 }
 
-.bsQ{
+.bsQ, .ppQ{
   color: #ff88a0;
   margin: 0 1rem 0 0;
 }
 
 .viewAllArrow{
-  width: 5rem;
+  width: 3.5rem;
+  font-size: 1.5rem;
 }
 
 .aboutSection{
+  position: relative;
   width: 100%;
-  height: 40rem;
+  height: 80rem;
   display: flex;
-  justify-content: space-evenly; 
+  justify-content: center;
+  align-items: center;
 }
 
-.aboutUsTextContainer{
-  margin: 12rem 0 0 0;
-  width: 15rem;
+.aboutSectionTextContainer{
+  margin: 0 0 1rem 0;
+  position: absolute;
+  width: 40rem;
 }
-
-.aboutUsText{
-  width: 55%;
-  height: 100%;
-  text-align: left;
+.aboutUsHeading{
+  font-family: 'Courgette', cursive;
+  font-size: 2rem;
 }
 
 .categoriesSection{
@@ -277,7 +310,7 @@ button:active{
   font-family: 'Monotype Corsiva', 'sans-serif', 'serif';
   font-size: 2rem;
   margin: 0;
-  color: rgb(238, 33, 74);
+  color: rgb(255, 0, 51);
 }
 
 .regdAddress{
@@ -298,6 +331,30 @@ button:active{
   margin: 0;
   color: #b4b4b4;
 }
+
+.categoryPane{
+  width: 30rem;
+  height: 30rem;
+  text-align: left;
+  margin: 3rem 0 0 0;
+}
+
+.listProductsView{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: left;
+  margin: 0 0 0 5rem;
+}
+
+.addToCartBtn{
+  width: 100%;
+  margin: 0;
+  border-radius: 0 0 1rem 1rem;
+}
+
+
+
 
 
 
