@@ -20,7 +20,7 @@ function BestSellerSection(){
         <div className = "bestSellerContainer">
             {ItemList.map(getBestSellerItems)}
         </div>
-        <button className = "viewAllArrow">&#8250;</button>
+        <a href = "http://localhost:3000/products"><button className = "viewAllArrow">&#8250;</button></a>
     </div>);
 }
 

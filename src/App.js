@@ -10,14 +10,26 @@ import Home from './components/Home';
 import About from './components/About';
 import Products from './components/Products';
 import Contact from './components/Contact';
-import Cart from './components/Cart';
-import CartIcon from './images/cartIcon.png';
 import LaddoosLogo from './images/laddoosLogo.JPG';
 
 
 function App() {
+
+  function showPosition(position){
+    console.log("Latitude: " + position.coords.latitude +
+    " and Longitude: " + position.coords.longitude); 
+  }
+
+  function getLocation() {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+      alert("Geolocation is not supported by this browser.");
+    }
+  }
+
   return (
-    <div className="App">
+    <div onLoad = {getLocation()} className="App">
       <Router>
       <div>
         <nav id = "navbar">
@@ -28,14 +40,12 @@ function App() {
             <Link className = "contactTab" to="/contact">Contact Us</Link>
             <button>Order Now</button>
           </div>
-          <Link className = "cartTab" to="/cart"><img className = "carticon" src = {CartIcon}/></Link>
         </nav>
 
         <Routes>
           <Route path="/about" element={<About/>} />
           <Route path="/products" element={<Products/>} />
           <Route path="/contact" element={<Contact/>} />
-          <Route path="/cart" element={<Cart/>} />
           <Route path="/" element={<Home/>} />
         </Routes>
       </div>

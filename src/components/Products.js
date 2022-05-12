@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 
 import ProductPageItemBox from './ProductPageItemBox';
 import ItemList from './ItemList';
+import FooterSection from "./FooterSection";
 
 function Products() {
 
@@ -68,6 +69,7 @@ function Products() {
   }
 
   return(
+    <div>
     <div id = "products">
       <div className = "categoryPane">
         <div onClick={handleClick} id = "cat1" name = "Sweets">Sweets</div>
@@ -80,6 +82,8 @@ function Products() {
       <div className = "listProductsView">
         {ItemList.map(displayItems)}
       </div>
+    </div>
+    <FooterSection />
     </div>
   );
   }

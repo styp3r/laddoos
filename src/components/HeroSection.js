@@ -13,7 +13,7 @@ function HeroSection(){
             <div className = "heroTextContainer">
               <h1 className = "heroTitle">We Bring You True Authentic Indian Sweets and Chaats</h1>
               <p className = "heroSubTitle">Food that leaves you wanting more is the best kind of food, and we love making it! Explore our menu to see what we have in store for you now!</p>
-              <button>See Our Menu</button>
+              <a href = "http://localhost:3000/products"><button>See Our Menu</button></a>
             </div>
           </div>
         </div>

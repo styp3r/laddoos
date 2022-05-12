@@ -3,7 +3,7 @@ function FooterSection(){
         <div className = "footerSection">
             <div className = "footerLeft">
                 <div className = "footerLeftContent">
-                    <p className = "footerLogo">Laddoos</p>
+                <a href = "http://localhost:3000/"><p className = "footerLogo">Laddoos</p></a>
                     <p className = "regdAddress">Hemkund, BMP No. 10, 14th D Cross, Behind GR Regency Apartments, Byrasandra, GM Palya, New Thippasandra Post, Bangalore 560075</p>
                 </div>
             </div>

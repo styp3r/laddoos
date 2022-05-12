@@ -1,16 +1,16 @@
 import CategoriesItembox from "./CategoriesItemBox";
-import ItemList from "./ItemList";
+import CategoryList from "./CategoryList";
 
-function CategoriesSection(){
+function CategoriesSection() {
 
-    function getCategories(cat){
-        return <CategoriesItembox key = {cat.id} img = {cat.img} name = {cat.name}/>
+    function getCategories(cat) {
+        return <CategoriesItembox key={cat.id} img={cat.img} name={cat.name} />
     }
 
-    return(
-        <div className = "categoriesSection">
-            <div className = "categoriesContainer">
-                {ItemList.map(getCategories)}
+    return (
+        <div className="categoriesSection">
+            <div className="categoriesContainer">
+                {CategoryList.map(getCategories)}
             </div>
         </div>
     );
