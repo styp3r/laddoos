@@ -1,5 +1,7 @@
 import ItemList from './ItemList';
 import BestSellerItemBox from './BestSellerItemBox';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 function BestSellerSection(){
 
@@ -20,7 +22,7 @@ function BestSellerSection(){
         <div className = "bestSellerContainer">
             {ItemList.map(getBestSellerItems)}
         </div>
-        <a href = "http://localhost:3000/products"><button className = "viewAllArrow">&#8250;</button></a>
+        <a href = "http://localhost:3000/products"><FontAwesomeIcon className = "viewAllArrow" icon={faCircleChevronRight} /></a>
     </div>);
 }
 

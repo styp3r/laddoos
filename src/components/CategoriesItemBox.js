@@ -1,7 +1,9 @@
 function CategoriesItembox(props){
     return(
         <div id = "categoriesItemBox">
-            <img width= "90%" height = "160" style = {{borderRadius: "1rem", margin: "0.5rem", objectFit: "cover"}} src = {props.img} />
+            <div className = "catBoxContainer">
+                <img width= "100%" height = "100%" style = {{borderRadius: "1rem", objectFit: "cover"}} src = {props.img} />
+            </div>
             <p className = "catBoxTitle">{props.name}</p>
         </div>
     );

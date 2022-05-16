@@ -1,3 +1,8 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faFacebook, faAmazon } from '@fortawesome/free-brands-svg-icons';
+import ZomatoIcon from '../images/zomatoIcon.png';
+import SwiggyIcon from '../images/swiggyIcon.png';
+
 function FooterSection(){
     return(
         <div className = "footerSection">
@@ -9,7 +14,7 @@ function FooterSection(){
             </div>
             <div className = "footerRight">
                 <div className = "footerRightContent">
-                    <p className = "socialLinks">Instagram Facebook Swiggy Zomato Amazon</p>
+                    <p className = "socialLinks"><FontAwesomeIcon className = "instagramIcon" icon={faInstagram} /> <FontAwesomeIcon className = "facebookIcon" icon={faFacebook} /> <img width = "40" height = "40" src = {SwiggyIcon}/> <img width = "40" height = "40" src = {ZomatoIcon}/> <FontAwesomeIcon className = "amazonIcon" icon={faAmazon} /></p>
                     <p className = "copyright">Copyright &copy; Xyka Hotels India Private Limited</p>
                 </div>
             </div>

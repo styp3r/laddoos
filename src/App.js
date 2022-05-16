@@ -10,7 +10,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Products from './components/Products';
 import Contact from './components/Contact';
-import LaddoosLogo from './images/laddoosLogo.JPG';
+import LaddoosLogo from './images/logoLogo.png';
 
 
 function App() {
@@ -32,6 +32,7 @@ function App() {
     <div onLoad = {getLocation()} className="App">
       <Router>
       <div>
+      <img id = "logo" src = {LaddoosLogo}/>
         <nav id = "navbar">
           <div className = "navbarItems">
             <Link className = "homeTab" to="/">Home</Link>

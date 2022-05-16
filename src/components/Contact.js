@@ -1,5 +1,7 @@
 import ContactPageBG from '../images/contactPageBg.png';
 import FooterSection from "./FooterSection";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 function Contact(){
     return(
@@ -14,9 +16,15 @@ function Contact(){
                 <p>We are always happy to make valuable new contacts</p>
               </div>
               <div className = "contactOptions">
-                  <div className = "locationOpt">location</div>
-                  <div className = "emailOpt">email</div>
-                  <div className = "phoneOpt">phone</div>
+                  <div className = "locationOpt"><FontAwesomeIcon icon={faLocationDot} />
+                  <p>Hello</p>
+                  </div>
+                  <div className = "emailOpt"><FontAwesomeIcon icon={faEnvelope} />
+                  <p>laddoos@ymail.com</p>
+                  </div>
+                  <div className = "phoneOpt"><FontAwesomeIcon icon={faPhone} />
+                  <p>+91 72590 31520</p>
+                  </div>
                 </div>
               <div className = "inputContainers">
                 <div className = "nameEmailInputContainer">
