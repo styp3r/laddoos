@@ -14,7 +14,7 @@ function FooterSection(){
             </div>
             <div className = "footerRight">
                 <div className = "footerRightContent">
-                    <p className = "socialLinks"><FontAwesomeIcon className = "instagramIcon" icon={faInstagram} /> <FontAwesomeIcon className = "facebookIcon" icon={faFacebook} /> <img width = "40" height = "40" src = {SwiggyIcon}/> <img width = "40" height = "40" src = {ZomatoIcon}/> <FontAwesomeIcon className = "amazonIcon" icon={faAmazon} /></p>
+                    <p className = "socialLinks"><FontAwesomeIcon className = "instagramIcon" icon={faInstagram} /> <FontAwesomeIcon className = "facebookIcon" icon={faFacebook} /> <img style = {{margin: "0 0.5rem 0 0"}} width = "35" height = "35" src = {SwiggyIcon}/> <img style = {{margin: "0 0.5rem 0 0"}} width = "35" height = "35" src = {ZomatoIcon}/> <FontAwesomeIcon className = "amazonIcon" icon={faAmazon} /></p>
                     <p className = "copyright">Copyright &copy; Xyka Hotels India Private Limited</p>
                 </div>
             </div>

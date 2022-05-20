@@ -167,7 +167,7 @@ button:active{
 
 .instagramIcon, .facebookIcon, .amazonIcon{
   font-size: 2rem;
-  margin: 0.5rem;
+  margin: 0 0.5rem 0 0.5rem;
 }
 
 .locationOpt, .emailOpt, .phoneOpt{
@@ -189,6 +189,8 @@ button:active{
 .aboutUsPageTitle{
   display: flex;
   justify-content: left;
+  font-family: 'Courgette', cursive;
+  font-size: 2.5rem;
   margin: 5rem 0 5rem 5.5rem;
 }
 
@@ -199,6 +201,11 @@ button:active{
 
 .aboutUsPageText{
   width: 40rem;
+  text-align: left;
+}
+
+.infoGraphics{
+  margin: 8rem 0 5rem 0;
 }
 
 .info1, .info2, .info3{
@@ -564,6 +571,11 @@ button:active{
 
 .getInTouch{
   font-family: 'Secular One', sans-serif;
+}
+
+.socialLinks{
+  display: flex;
+  justify-content: flex-end;
 }
 
 
