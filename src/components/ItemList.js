@@ -34,6 +34,23 @@ import hotBadamMilk from '../images/Items/Beverages/hot badam milk.jpg';
 import mangoLassi from '../images/Items/Beverages/mango lassi.jpg';
 import saltLassi from '../images/Items/Beverages/salt lassi.jpg';
 import sweetLassi from '../images/Items/Beverages/sweet lassi.jpg';
+//Namkeen
+import awalakki from '../images/Items/Namkeen/awalakki.jpg';
+import bombayMix from '../images/Items/Namkeen/bombay mix.jpg';
+import dalmot from '../images/Items/Namkeen/dalmot.jpg';
+import gathiya from '../images/Items/Namkeen/gathiya.jpg';
+import kadaBoondi from '../images/Items/Namkeen/kada boondi.jpg';
+import lahsenSev from '../images/Items/Namkeen/lahsen sev.jpg';
+import masalaChips from '../images/Items/Namkeen/masala chips.jpg';
+import mathri from '../images/Items/Namkeen/mathri.jpg';
+import nimkiPlain from '../images/Items/Namkeen/nimki plain.jpg';
+import nimkiMasala from '../images/Items/Namkeen/nimki plain.jpg';
+import palakSev from '../images/Items/Namkeen/palak sev.jpg';
+import papdi from '../images/Items/Namkeen/papdi.jpg';
+import plainSev from '../images/Items/Namkeen/plain sev.jpg';
+import sakarpala from '../images/Items/Namkeen/sakarpala.jpg';
+import saltChips from '../images/Items/Namkeen/salt chips.jpg';
+import sohali from '../images/Items/Namkeen/sohali.jpg';
 //import from '../images/Items/';
 
 
@@ -334,6 +351,150 @@ const ItemList = [
         qty: "250ml",
         price: 65,
         img: sweetLassi
+    },
+    {
+        id: 33,
+        name: "Awalakki Mixture",
+        category: "namkeen",
+        bestseller: false,
+        qty: "180gms",
+        price: 66.96,
+        img: awalakki
+    },
+    {
+        id: 34,
+        name: "Bombay Mixture",
+        category: "namkeen",
+        bestseller: false,
+        qty: "180gms",
+        price: 66.96,
+        img: bombayMix
+    },
+    {
+        id: 35,
+        name: "Dalmot",
+        category: "namkeen",
+        bestseller: false,
+        qty: "180gms",
+        price: 66.96,
+        img: dalmot
+    },
+    {
+        id: 36,
+        name: "Gathiya",
+        category: "namkeen",
+        bestseller: false,
+        qty: "180gms",
+        price: 71.43,
+        img: gathiya
+    },
+    {
+        id: 37,
+        name: "Boondi Mixture",
+        category: "namkeen",
+        bestseller: false,
+        qty: "180gms",
+        price: 66.96,
+        img: kadaBoondi
+    },
+    {
+        id: 38,
+        name: "Lahsen Sev",
+        category: "namkeen",
+        bestseller: false,
+        qty: "180gms",
+        price: 66.96,
+        img: lahsenSev
+    },
+    {
+        id: 39,
+        name: "Spicy Potato Chips",
+        category: "namkeen",
+        bestseller: false,
+        qty: "100gms",
+        price: 49.10,
+        img: masalaChips
+    },
+    {
+        id: 40,
+        name: "Salted Potato Chips",
+        category: "namkeen",
+        bestseller: false,
+        qty: "100gms",
+        price: 49.10,
+        img: saltChips
+    },
+    {
+        id: 41,
+        name: "Mathri",
+        category: "namkeen",
+        bestseller: false,
+        qty: "200gms",
+        price: 71.43,
+        img: mathri
+    },
+    {
+        id: 42,
+        name: "Nimki Plain",
+        category: "namkeen",
+        bestseller: false,
+        qty: "200gms",
+        price: 71.43,
+        img: nimkiPlain
+    },
+    {
+        id: 43,
+        name: "Nimki Masala",
+        category: "namkeen",
+        bestseller: false,
+        qty: "200gms",
+        price: 71.43,
+        img: nimkiMasala
+    },
+    {
+        id: 44,
+        name: "Palak Sev",
+        category: "namkeen",
+        bestseller: false,
+        qty: "180gms",
+        price: 66.96,
+        img: palakSev
+    },
+    {
+        id: 45,
+        name: "Gujarati Papdi",
+        category: "namkeen",
+        bestseller: false,
+        qty: "180gms",
+        price: 71.43,
+        img: papdi
+    },
+    {
+        id: 46,
+        name: "Plain Sev",
+        category: "namkeen",
+        bestseller: false,
+        qty: "180gms",
+        price: 66.96,
+        img: plainSev
+    },
+    {
+        id: 47,
+        name: "Sakarpala",
+        category: "namkeen",
+        bestseller: false,
+        qty: "200gms",
+        price: 71.43,
+        img: sakarpala
+    },
+    {
+        id: 48,
+        name: "Sohali",
+        category: "namkeen",
+        bestseller: false,
+        qty: "200gms",
+        price: 71.43,
+        img: sohali
     },
 ];
 
