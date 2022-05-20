@@ -80,6 +80,7 @@ function Products() {
         <div onClick={handleClick} id = "cat6" name = "Beverages">Beverages</div>
       </div>
       <div className = "listProductsView">
+        <p className = "productPageTitle">Products</p>
         {ItemList.map(displayItems)}
       </div>
     </div>

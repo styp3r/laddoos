@@ -12,12 +12,12 @@ function Contact(){
             <div id = "contactForm">
               <div className = "inputContactBoxes">
               <div className = "contactFormText">
-                <h1>GET IN TOUCH</h1>
+                <h1 className = "getInTouch">GET IN TOUCH</h1>
                 <p>We are always happy to make valuable new contacts</p>
               </div>
               <div className = "contactOptions">
                   <div className = "locationOpt"><FontAwesomeIcon icon={faLocationDot} />
-                  <p>Hello</p>
+                  <p>Bangalore, India</p>
                   </div>
                   <div className = "emailOpt"><FontAwesomeIcon icon={faEnvelope} />
                   <p>laddoos@ymail.com</p>

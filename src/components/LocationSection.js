@@ -1,10 +1,11 @@
 import Map from './Map';
-import LocationList from './LocationList';
+import LocAddressList from './LocAddressList';
+import StoreLocationBox from './StoreLocationBox';
 
 function LocationSection(){
 
-    function getStoreLocations(storeLoc){
-        return (null);
+    function getStoreAddress(storeAdd){
+        return <StoreLocationBox name = {storeAdd.name} address = {storeAdd.address} shopPhone = {storeAdd.shopPhone} shopImg = {storeAdd.shopImg}/>;
     }
 
     return (
@@ -16,10 +17,12 @@ function LocationSection(){
         </div>
         <div className = "locationsText">
             <div className = "locationsTextContainer">
-                <h1>Our Locations</h1>
-                <p>Lorem Ipsum</p>
-                <a href = "http://localhost:3000/contact"><button>Contact Us</button></a>
-                {/*LocationList.map(getStoreLocations)*/}
+                <p className = "locSectionTitle">Our Locations</p>
+                <div className = "locBoxesContainer">
+                    {LocAddressList.map(getStoreAddress)}
+                    <div className = "comingSoonBox"><p className = "comingSoonLocBoxText">We are expanding! &nbsp; More outlets coming soon!</p></div>
+                </div>
+                <a href = "http://localhost:3000/contact"><button className = "contactUsBtn">Contact Us</button></a>
             </div>
         </div>
     </div>

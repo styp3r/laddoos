@@ -29,7 +29,7 @@ button:active{
   position: absolute;
   width: 10rem;
   display: inline-block;
-  left: 10rem;
+  left: 5rem;
   top: 1.5rem;
   border: solid 3px #FFD700;
 }
@@ -89,11 +89,10 @@ button:active{
   height: 3rem;
   margin: 1rem;
   padding: 0 0 0 1rem;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
   display: flex;
   justify-content: left;
   align-items: center;
-  border: solid 1px #c3c3c3;
 }
 
 #cat1:hover, #cat2:hover, #cat3:hover, #cat4:hover, #cat5:hover, #cat6:hover {
@@ -113,8 +112,8 @@ button:active{
 }
 
 #contactFormContainer{
-  width: 70rem;
-  height: 35rem;
+  width: 50rem;
+  height: 38rem;
   position: relative;
   margin: -20rem 0 0 50%;
   transform: translateX(-50%);
@@ -162,6 +161,10 @@ button:active{
   margin: 2rem 0 0 0;
 }
 
+.productPageTitle{
+  margin: 3rem 0 0 3rem;
+}
+
 .instagramIcon, .facebookIcon, .amazonIcon{
   font-size: 2rem;
   margin: 0.5rem;
@@ -180,6 +183,7 @@ button:active{
 
 .inputContainers{
   display: flex;
+  margin: 1rem 0 0 0;
 }
 
 .aboutUsPageTitle{
@@ -198,9 +202,9 @@ button:active{
 }
 
 .info1, .info2, .info3{
-  width: 17rem;
-  height: 17rem;
-  border: solid 1px #000000;
+  width: 20rem;
+  height: 20rem;
+  border: solid 1px #c1c0c0;
   margin: 3rem;
   border-radius: 0.5rem;
 }
@@ -327,7 +331,7 @@ button:active{
 
 .categoriesSection{
   width: 100%;
-  height: 40rem;
+  height: 50rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -365,13 +369,14 @@ button:active{
 
 .locationsSection{
   width: 100%;
-  height: 40rem;
+  height: 45rem;
   display: flex;
+  margin: 10rem 0 0 0;
   justify-content: space-evenly;
 }
 
 .mapView{
-  width: 55%;
+  width: 50%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -391,14 +396,16 @@ button:active{
 }
 
 .locationsTextContainer{
-  margin: 10rem 0 0 10rem;
-  width: 15rem;
+  width: 40rem;
+  height: 35rem;
+  margin: 5rem 0 0 0;
+  text-align: center;
 }
 
 .locationsText{
-  width: 45%;
+  width: 50%;
   height: 100%;
-  text-align: right;
+  text-align: left;
 }
 
 .offerSection{
@@ -428,7 +435,7 @@ button:active{
 }
 
 .footerLeftContent{
-  width: 35rem;
+  width: 38rem;
   margin: 7rem 0 0 7rem;
 }
 
@@ -450,7 +457,7 @@ button:active{
 
 .footerRightContent{
   width: 35rem;
-  margin: 9rem 7rem 0 0;
+  margin: 7rem 7rem 0 0;
 }
 
 .copyright{
@@ -462,7 +469,7 @@ button:active{
   width: 30rem;
   height: 30rem;
   text-align: left;
-  margin: 3rem 0 0 0;
+  margin: 6rem 0 0 0;
 }
 
 .listProductsView{
@@ -473,6 +480,91 @@ button:active{
   margin: 0 0 0 5rem;
 }
 
+.locBoxesContainer{
+  width: 40rem;
+  height: 26rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.locSectionTitle{
+  font-family: 'Courgette', cursive;
+  font-size: 2rem;
+}
+
+.catSectionTitle{
+  font-family: 'Courgette', cursive;
+  font-size: 2rem;
+}
+
+.contactUsBtn{
+  width: 35rem;
+  margin: 1rem;
+}
+
+.locDisplayBox{
+  width: 90%; 
+  height: 13rem;
+  background-color: #fafafa;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  justify-content: space-between;
+  margin: 0 2rem 2rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.comingSoonBox{
+  width: 90%; 
+  height: 3.5rem;
+  margin: 2rem;
+  border-radius: 0.5rem;
+  background-color: rgb(247, 37, 79);
+}
+
+.boxText{
+  padding: 1rem;
+  color: rgb(255, 0, 51);
+}
+
+.comingSoonLocBoxText{
+  margin: 1rem 0 0 0.5rem;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+.boxAddress{
+  color: #6c6a6a;
+  position: absolute;
+  width: 15rem;
+  top: 3.5rem;
+  left: 1rem;
+  text-align: left;
+}
+
+.shopPhone{
+  color: #6c6a6a;
+  position: absolute;
+  width: 15rem;
+  bottom: 2rem;
+  left: 1rem;
+  text-align: left;
+}
+
+.shopImg{
+  width: 18rem;
+  height: 100%;
+  object-fit: fill;
+}
+
+.productPageTitle{
+  font-family: 'Courgette', cursive;
+  font-size: 2rem;
+}
+
+.getInTouch{
+  font-family: 'Secular One', sans-serif;
+}
 
 
 

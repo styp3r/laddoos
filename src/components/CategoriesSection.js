@@ -10,6 +10,7 @@ function CategoriesSection() {
     return (
         <div className="categoriesSection">
             <div className="categoriesContainer">
+            <p className = "catSectionTitle">Our Categories</p>
                 {CategoryList.map(getCategories)}
             </div>
         </div>
